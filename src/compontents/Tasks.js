@@ -6,4 +6,5 @@ export default function Tasks(){
     return (<div><ul>{tasks.map((task)=>(
         <Task key={task.id} task={task}></Task>
     ))}</ul></div>)
+
 }
